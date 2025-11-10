@@ -1,0 +1,30 @@
+/* ============ Default Styling ============ */
+/* header box styling */
+#header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+/* header title styling */
+#header a.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+/* header links styling */
+#header a {
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* header links shifted right */
+#header-right {
+  float: right;
+}
+/* change color on hover */
+#header a:hover {
+  background-color: #ddd;
+  color: black;
+}
