@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const grid = document.getElementById("restaraunt-grid");
+    const grid = document.getElementById("restaurant-grid");
     function swapCards(cardA, cardB) {
         if (!cardA || !cardB) return;
         let temp = document.createElement("div");
