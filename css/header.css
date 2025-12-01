@@ -32,6 +32,12 @@
 body {
     font-family: "Verdana", sans-serif;
 }
+.img1 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 #title {
     font-size: 25px;
 }
