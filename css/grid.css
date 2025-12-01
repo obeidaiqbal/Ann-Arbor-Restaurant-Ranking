@@ -1,0 +1,52 @@
+/* ============ Restaraunt Grid Styling ============ */
+/* grid styling */
+#restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: dodgerblue; */
+    padding: 40px;
+    gap: 40px;
+}
+/* card styling */
+#restaurant-grid .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    font-size: 15px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.img {
+    width: 310px; /* adjust */
+    height: 190px;
+}
+a {
+    color: #595959;
+    font-size: 18px;
+    text-decoration: none;
+}
+#restaurant-grid div:nth-child(1) {
+    grid-column: span 3;
+}
+#restaurant-grid .card:nth-child(1) .up {
+    display: none;
+}
+#restaurant-grid .card:nth-child(1) .img {
+    width: 475px; /* adjust */
+    height: 325px;
+}
+#restaurant-grid .card:nth-child(2) {
+    grid-column: span 2;
+}
+#restaurant-grid .card:nth-child(9) .down {
+    display: none;
+}
